@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vogue Times - Fashion Blog</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">VOGUE <span>TIMES</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2 class="section-title">Featured Posts</h2>
+      <div class="grid cards">
+
+        <article class="card">
+          <a href="posts/street-style-2025.html" class="card-media" aria-label="Read Top Street Style Looks of 2025">
+            <img src="images/look1.jpg" alt="Street style outfit" />
+          </a>
+          <div class="card-body">
+            <a class="chip" href="blog.html#trends">Trends</a>
+            <h3 class="card-title"><a href="posts/street-style-2025.html">Top Street Style Looks of 2025</a></h3>
+            <p class="muted">From Paris to Milan, here are the silhouettes and fabrics dominating sidewalks this season.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="posts/jeans-5-ways.html" class="card-media" aria-label="Read How to Style Jeans in 5 Ways">
+            <img src="images/look2.jpg" alt="Jeans styling looks" />
+          </a>
+          <div class="card-body">
+            <a class="chip" href="blog.html#guides">Style Guide</a>
+            <h3 class="card-title"><a href="posts/jeans-5-ways.html">How to Style Jeans in 5 Ways</a></h3>
+            <p class="muted">Five easy, affordable formulas to dress up or down your favorite pair.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section alt">
+      <h2 class="section-title">Browse by Category</h2>
+      <div class="grid thirds">
+        <a class="category" href="blog.html#outfits">Outfit Inspirations</a>
+        <a class="category" href="blog.html#guides">Style Guides</a>
+        <a class="category" href="blog.html#trends">Trend Reviews</a>
+        <a class="category" href="blog.html#budget">Budget Fashion</a>
+        <a class="category" href="blog.html#sustainable">Sustainable Fashion</a>
+        <a class="category" href="blog.html#lifestyle">Fashion + Lifestyle</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo small">VOGUE <span>TIMES</span></div>
+        <p class="muted">© 2025 Vogue Times • Designed by Bhavani</p>
+      </div>
+      <form class="subscribe" onsubmit="return false" aria-label="Subscribe to newsletter (demo)">
+        <label for="email" class="muted">Subscribe for weekly looks</label>
+        <div class="row">
+          <input id="email" type="email" placeholder="Enter your email" />
+          <button class="btn" type="submit">Subscribe</button>
+        </div>
+        <small class="muted">(Demo only)</small>
+      </form>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
